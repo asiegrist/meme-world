@@ -1,0 +1,10 @@
+<div class="row margin-bottom">
+  <div class="margin-bottom">
+    <h3>Image : {{memeDetail.meme.title}}</h3>
+    {{memeDetail.meme.stars}}
+  </div>
+  <a class="btn btn-default" ng-href="#/meme">
+    <i class="glyphicon glyphicon-share-alt flip"></i>
+  </a>
+  <a class="btn btn-warning" ng-href="#/meme/{{memeDetail.meme._id}}/edit">MAJ / Supprimer</a>
+</div>
