@@ -13,7 +13,7 @@ An little application to manage meme image
 ### Install npm tools
 Open a cmd console as admin and, in the root directory of the project, type  :
 
-1. ``` npm i - g node-gyp rebuild ```
+1. ``` npm i -g node-gyp rebuild ```
 2. ``` npm i -g bower ```
 
 
